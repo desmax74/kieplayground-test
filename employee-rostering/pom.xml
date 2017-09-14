@@ -40,18 +40,22 @@
     <dependency>
       <groupId>org.kie</groupId>
       <artifactId>kie-api</artifactId>
+      <version>8.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.kie</groupId>
       <artifactId>kie-internal</artifactId>
+      <version>8.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.optaplanner</groupId>
       <artifactId>optaplanner-core</artifactId>
+      <version>8.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.optaplanner</groupId>
       <artifactId>optaplanner-persistence-jaxb</artifactId>
+      <version>8.0.0-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>
@@ -119,7 +123,7 @@
       <plugin>
         <groupId>org.kie</groupId>
         <artifactId>kie-maven-plugin</artifactId>
-        <version>${version.org.kie}</version>
+        <version>8.0.0-SNAPSHOT</version>
         <extensions>true</extensions>
       </plugin>
     </plugins>
