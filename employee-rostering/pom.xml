@@ -38,6 +38,10 @@
   <packaging>kjar</packaging>
   <name>Employee Rostering</name>
   <description>This workbench example assigns employees to shifts.</description>
+   <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>org.kie</groupId>
