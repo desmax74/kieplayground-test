@@ -39,6 +39,10 @@
   <name>Dinner party</name>
   <description>This workbench example assigns guests to tables. It leverages combination of
     Guided Decision Tables and DRL-based rules to define scoring function.</description>
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>org.kie</groupId>
